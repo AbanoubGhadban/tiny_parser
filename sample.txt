@@ -1,0 +1,22 @@
+if (x <= 4)
+    x := (2 + 4);
+    y := (6 + 9)
+else
+    w := 12.45E-12 + 34*12;
+    z := 22*5+(-3.14E44*3+ 45.66 - .455*.56E-45);
+
+    repeat
+        write x;
+        x /= 10
+    until x<=0;
+    write x
+end;
+z := 6*(2+ 6);
+
+
+{Another If}
+if (4+ 5) {Condition}
+    read z;
+    w := 12*.44 + z;
+    write w + 2
+end
